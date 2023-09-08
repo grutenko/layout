@@ -1,0 +1,21 @@
+{
+  "dependencies": {
+    "autoprefixer": "^10.4.15",
+    "jade": "^1.11.0",
+    "postcss": "^8.4.29",
+    "postcss-cli": "^10.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "last 1 ie version"
+    ]
+  }
+}

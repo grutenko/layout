@@ -1,0 +1,34 @@
+link(rel="stylesheet" href="/contact-block0.css")
+script(src="/contact-block0.js")
+
+section#block-contact.contact-block0
+  .contact-block0-pattern
+  form.contact-block0-form(onsubmit="sendBackCallRequest(event)")
+    h2 Оставьте заявку
+    p Мы свяжемся с Вами в ближайшее время
+    .input-group.input-group-lg
+      <input type="text" class="form-control" placeholder="Имя" required>
+    .input-group.input-group-lg
+      <input id="contact-block-phone" type="text" class="form-control masked" name="phone" title="Телефон" placeholder="Телефон" required>
+    .input-group.input-group-lg
+      <input type="email" class="form-control" placeholder="E-Mail" required>
+    p(style="font-size: 14px;") Оставляя свои контактные данные, вы подтверждаете свое совершеннолетие, соглашаетесь на обработку персональных данных в соответствии с&nbsp;
+      a.link.link-info(href="#") Правовой информацией
+    button.btn.btn-primary.btn-lg.x-form-button(type="submit") Оставить заявку
+  script.
+    $('#contact-block-phone').mask("+7(999) 999-9999");
+<div class="modal fade" id="contact-block0-modal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h3 class="modal-title" id="staticBackdropLabel">Спасибо за вашу заявку!</h5>
+        p.mt-4 Мы свяжемся с Вами в ближайшее время.
+        p Если у вас очень срочный вопрос, скорее звоните нам:
+        h3 8 800 8000 800
+      </div>
+    </div>
+  </div>
+</div>

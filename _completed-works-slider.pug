@@ -1,0 +1,37 @@
+.mt-4.splide
+  .splide__track
+    ul.splide__list
+      li.splide__slide
+        a.x-card(href="/completed-project.html" style="background-image: url(/img/toobs.png);")
+          .card-text.smart-card-text
+            .card-text-title Бизнес-центр “Транспортный”, г. Москва
+            .card-text-description Dictumst quisque sagittis purus sit. Maecenas sed enim ut sem. Varius sit amet mattis vulputate enim nulla aliquet.
+      li.splide__slide
+        a.x-card(href="/completed-project.html" style="background-image: url(/img/toobs.png);")
+          .card-text.smart-card-text
+            .card-text-title Бизнес-центр “Транспортный”, г. Москва
+            .card-text-description Dictumst quisque sagittis purus sit. Maecenas sed enim ut sem. Varius sit amet mattis vulputate enim nulla aliquet. 
+      li.splide__slide
+        a.x-card(href="/completed-project.html" style="background-image: url(/img/toobs.png);")
+          .card-text.smart-card-text
+            .card-text-title Бизнес-центр “Транспортный”, г. Москва
+            .card-text-description Dictumst quisque sagittis purus sit. Maecenas sed enim ut sem. Varius sit amet mattis vulputate enim nulla aliquet. 
+      li.splide__slide
+        a.x-card(href="/completed-project.html" style="background-image: url(/img/toobs.png);")
+          .card-text.smart-card-text
+            .card-text-title Бизнес-центр “Транспортный”, г. Москва
+            .card-text-description Dictumst quisque sagittis purus sit. Maecenas sed enim ut sem. Varius sit amet mattis vulputate enim nulla aliquet.  
+.container.mt-4.text-end
+  a.link.link-dark.fs-4.fw-bold(href="/completed-projects.html") Ко всем работам&nbsp;&nbsp;&nbsp;
+    img(src="/icon/arrow-right-circle.svg" alt="")
+script.
+  new Splide( '.splide', {
+    perPage: 2,
+    height: "400px",
+    gap: "20px",
+    breakpoints: {
+      1024: {
+        perPage: 1,
+      },
+    }
+  } ).mount();

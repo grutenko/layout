@@ -1,0 +1,13 @@
+extends _base.pug
+
+block content
+  nav.container(style="margin-top: 50px; font-size: 14px;" aria-label="breadcrumb")
+    ul.breadcrumb
+      li.breadcrumb-item
+        a.link.link-dark(href="/") Главное
+      block breadcrumb-items
+  block additional-links
+  section.container(style="margin-top: 30px")
+    h1 
+      block page-title
+  block content-internal
